@@ -10653,3 +10653,8 @@ font-size: 18px;
 font-weight: 500;
 text-decoration: none;
 }
+  .title-box::before,
+.title-box-2::before,
+.section-title::before {
+    display: none !important;
+}
