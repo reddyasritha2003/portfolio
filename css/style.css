@@ -10956,3 +10956,59 @@ margin-bottom:12px;
 line-height:1.7;
 color:#cfcfcf;
 }
+/* EXPERIENCE CARD EXACT STYLE */
+
+.resume-wrap{
+max-width:950px;
+margin:50px auto;
+padding:45px 60px;
+background:#111;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.6);
+text-align:center;
+}
+
+/* Date */
+.resume-wrap .date{
+font-size:30px;
+font-weight:700;
+color:#e6d5b8;
+margin-bottom:15px;
+display:block;
+}
+
+/* Job Title */
+.resume-wrap h2{
+font-size:24px;
+font-weight:600;
+margin-bottom:8px;
+}
+
+/* Company */
+.resume-wrap .position{
+display:block;
+font-size:18px;
+color:#d4c4a8;
+margin-bottom:25px;
+}
+
+/* Description */
+.resume-wrap p{
+color:#bfbfbf;
+margin-bottom:25px;
+}
+
+/* Bullet list container */
+.resume-wrap ul{
+max-width:780px;
+margin:0 auto;
+text-align:left;
+padding-left:20px;
+}
+
+/* Bullet points */
+.resume-wrap ul li{
+margin-bottom:12px;
+line-height:1.7;
+color:#d0d0d0;
+}
