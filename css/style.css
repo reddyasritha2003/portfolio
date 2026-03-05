@@ -10858,3 +10858,49 @@ margin:8px !important;
 }
 
 }
+/* ===== FORCE MOBILE HERO FIX ===== */
+
+@media (max-width:768px){
+
+/* stack hero layout vertically */
+.slider-text{
+flex-direction:column !important;
+align-items:center !important;
+justify-content:center !important;
+text-align:center !important;
+}
+
+/* profile image */
+.one-third.img{
+width:220px !important;
+height:220px !important;
+margin:20px auto !important;
+border-radius:50%;
+background-size:cover !important;
+background-position:center !important;
+}
+
+/* text container */
+.one-forth{
+width:100% !important;
+max-width:100% !important;
+padding:20px !important;
+text-align:center !important;
+}
+
+/* heading sizes */
+.hero h1{
+font-size:28px !important;
+line-height:1.2 !important;
+}
+
+.hero h2{
+font-size:18px !important;
+}
+
+/* buttons spacing */
+.hero .btn{
+margin:8px !important;
+}
+
+}
