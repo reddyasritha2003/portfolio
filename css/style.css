@@ -11101,3 +11101,12 @@ font-weight:700;
 margin:0 auto 30px auto;
 display:block;
 }
+/* reduce gap between headings and cards */
+
+#professional-journey-section .heading-section{
+margin-bottom:15px;
+}
+
+.resume-wrap{
+margin-top:10px;
+}
