@@ -10881,3 +10881,43 @@ padding-top:10px !important;
 }
 
 }
+/* ===== MOBILE PORTFOLIO FIX ===== */
+
+@media (max-width:768px){
+
+.ftco-section{
+padding:40px 0 !important;
+}
+
+.heading-section{
+margin-bottom:20px !important;
+text-align:center;
+}
+
+.col-md-6,
+.col-lg-6,
+.col-xl-6{
+flex:0 0 100% !important;
+max-width:100% !important;
+}
+
+.resume-wrap{
+width:95% !important;
+margin:20px auto !important;
+padding:25px !important;
+}
+
+.resume-wrap h3{
+font-size:20px !important;
+line-height:1.4 !important;
+}
+
+.resume-wrap p{
+font-size:15px !important;
+}
+
+.hero h1{
+font-size:32px !important;
+}
+
+}
