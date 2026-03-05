@@ -10551,90 +10551,7 @@ background:white;
 background:#e8d5b5;
 color:black;
 }
-/* FORCE MOBILE HERO SAME AS DESKTOP */
 
-@media (max-width:768px){
-
-/* center entire hero section */
-.slider-text{
-flex-direction:column !important;
-align-items:center !important;
-justify-content:center !important;
-text-align:center;
-}
-
-/* profile image */
-.one-third.img{
-width:220px !important;
-height:220px !important;
-margin:20px auto !important;
-border-radius:50%;
-background-size:cover;
-background-position:center;
-}
-
-/* text container */
-.one-forth{
-width:100% !important;
-text-align:center;
-}
-
-/* keep buttons side-by-side */
-#home-section .btn{
-display:inline-block !important;
-margin:10px 6px;
-padding:12px 26px;
-font-size:14px;
-}
-
-/* reduce big spacing */
-.hero{
-height:auto !important;
-padding-bottom:50px;
-}
-
-}
-/* KEEP DESKTOP LAYOUT ON MOBILE */
-
-@media (max-width:768px){
-
-.row{
-flex-wrap:nowrap !important;
-}
-
-.col-md-6,
-.col-md-5,
-.col-md-7,
-.col-lg-5,
-.col-lg-7{
-flex:0 0 auto;
-width:50%;
-}
-
-}
-@media (max-width:768px){
-
-.slider-text{
-flex-direction:row !important;
-justify-content:space-between;
-align-items:center;
-}
-
-.one-third.img{
-width:260px !important;
-height:260px !important;
-}
-
-.one-forth{
-text-align:left;
-}
-
-}
-@media (max-width:768px){
-
-h1{
-font-size:48px;
-}
 
 #typing-animation{
 font-size:22px;
@@ -10774,5 +10691,52 @@ text-decoration: none;
   .one-forth {
     width: 100% !important;
   }
+
+}
+/* ===== CLEAN MOBILE RESPONSIVE FIX ===== */
+
+@media (max-width:768px){
+
+/* stack hero content */
+.slider-text{
+flex-direction:column !important;
+align-items:center !important;
+justify-content:center !important;
+text-align:center;
+}
+
+/* profile image */
+.one-third.img{
+width:220px;
+height:220px;
+margin:20px auto;
+border-radius:50%;
+background-size:cover;
+background-position:center;
+}
+
+/* hero text */
+.one-forth{
+width:100%;
+text-align:center;
+}
+
+/* buttons */
+#home-section .btn{
+display:inline-block;
+margin:10px;
+}
+
+/* project cards */
+.col-md-4{
+width:100%;
+margin-bottom:25px;
+}
+
+/* fix spacing */
+.container{
+padding-left:20px;
+padding-right:20px;
+}
 
 }
