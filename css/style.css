@@ -10772,3 +10772,29 @@ text-align:center;
 }
 
 }
+/* MOBILE HEADING FIX */
+@media (max-width:768px){
+
+/* Section headings */
+.heading-section h2{
+font-size:32px !important;
+font-weight:700;
+text-align:center;
+}
+
+/* Experience / Resume / Education titles */
+.resume-wrap h2{
+font-size:24px !important;
+font-weight:700;
+}
+
+.resume-wrap h3{
+font-size:20px !important;
+}
+
+/* General section titles */
+h2{
+font-size:30px !important;
+}
+
+}
