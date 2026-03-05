@@ -10798,3 +10798,17 @@ font-size:30px !important;
 }
 
 }
+/* MOBILE HEADING SIZE FIX */
+@media screen and (max-width:768px){
+
+.ftco-heading-2{
+font-size:32px !important;
+font-weight:700 !important;
+text-align:center;
+}
+
+.heading-section h2{
+font-size:34px !important;
+}
+
+}
