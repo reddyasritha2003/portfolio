@@ -10721,3 +10721,33 @@ text-decoration: none;
   }
 
 }
+/* ============================= */
+/* MOBILE HERO FIX */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  /* Show profile image */
+  .hero .one-third {
+    display: block !important;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  }
+
+  /* Make text full width */
+  .hero .one-forth {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Stack image above text */
+  .slider-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
