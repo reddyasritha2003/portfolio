@@ -11067,3 +11067,20 @@ margin-bottom:12px !important;
 line-height:1.7 !important;
 color:#d0d0d0 !important;
 }
+/* CENTER EXPERIENCE HEADING */
+
+#professional-journey-section .heading-section{
+text-align:center !important;
+margin-bottom:40px;
+}
+
+#professional-journey-section .heading-section h2{
+text-align:center !important;
+font-size:42px;
+font-weight:700;
+}
+
+#professional-journey-section .underline{
+margin:0 auto 30px auto;
+display:block;
+}
