@@ -11646,3 +11646,22 @@ body .hero .btn{
 }
 
 }
+  /* ===== FORCE HERO MOBILE ORDER ===== */
+
+@media (max-width:768px){
+
+.row.d-md-flex.slider-text{
+    display:flex !important;
+    flex-direction:column-reverse !important;
+    align-items:center !important;
+}
+
+.one-third.hero-img{
+    width:100% !important;
+    height:220px !important;
+    margin-top:25px !important;
+    background-size:contain !important;
+    background-position:center !important;
+}
+
+}
