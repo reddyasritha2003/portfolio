@@ -11358,3 +11358,33 @@ margin-bottom:30px;
   }
 
 }
+/* PROFILE IMAGE STYLE */
+
+.profile-img{
+  width:450px;
+  max-width:100%;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+/* MOBILE FIX */
+
+@media (max-width:768px){
+
+  .slider-text{
+    flex-direction:column !important;
+    align-items:center !important;
+    text-align:center;
+  }
+
+  .one-third{
+    order:-1;
+    width:100%;
+    margin-bottom:20px;
+  }
+
+  .profile-img{
+    width:220px;
+  }
+
+}
