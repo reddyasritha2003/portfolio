@@ -11626,3 +11626,23 @@ body .hero .btn{
 }
 
 }
+  /* ===== FORCE HERO IMAGE BELOW TEXT ===== */
+
+@media (max-width:768px){
+
+.home-slider .slider-item .row{
+  display:flex !important;
+  flex-direction:column-reverse !important;
+  align-items:center !important;
+  text-align:center !important;
+}
+
+.home-slider .slider-item .one-third{
+  width:100% !important;
+  height:240px !important;
+  margin-top:20px !important;
+  background-size:contain !important;
+  background-position:center !important;
+}
+
+}
