@@ -11122,33 +11122,3 @@ margin-top:10px;
 .blog-entry{
 margin-bottom:30px;
 }
-#typing-animation{
-font-size:28px;
-font-weight:bold;
-color:#ffffff;
-display:inline-block;
-white-space:nowrap;
-border-right:3px solid #fff;
-padding-right:5px;
-animation:typing 3s steps(20,end) infinite,
-blink .7s step-end infinite;
-}
-
-@keyframes typing{
-from{width:0}
-to{width:100%}
-}
-
-@keyframes blink{
-50%{border-color:transparent}
-}
-@media (max-width:768px){
-
-#typing-animation{
-font-size:22px;
-white-space:normal;
-border-right:none;
-animation:none;
-}
-
-}
