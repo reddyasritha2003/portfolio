@@ -11277,3 +11277,16 @@ margin-bottom:30px;
   }
 
 }
+  @media (max-width:768px){
+
+.one-third{
+  width:100% !important;
+  order:2;
+}
+
+.one-forth{
+  width:100% !important;
+  order:1;
+}
+
+}
