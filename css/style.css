@@ -11372,4 +11372,48 @@ font-size:20px !important;
 }
 
 }
+  /* ===== HARD MOBILE HERO FIX ===== */
+@media (max-width:768px){
+
+/* stop owl slider text animation from floating */
+.home-slider .slider-item .slider-text{
+display:flex !important;
+flex-direction:column !important;
+align-items:center !important;
+justify-content:center !important;
+}
+
+/* remove animation positioning */
+.home-slider .slider-item .slider-text .text{
+position:static !important;
+transform:none !important;
+top:auto !important;
+left:auto !important;
+margin-bottom:20px !important;
+text-align:center !important;
+}
+
+/* stack text above image */
+.home-slider .slider-item .slider-text .one-forth{
+width:100% !important;
+order:1 !important;
+padding:20px !important;
+}
+
+.home-slider .slider-item .slider-text .one-third{
+width:100% !important;
+order:2 !important;
+height:260px !important;
+background-size:contain !important;
+background-position:center !important;
+}
+
+/* fix typing text overflow */
+#typing-animation{
+white-space:normal !important;
+font-size:20px !important;
+}
+
+}
+
 
