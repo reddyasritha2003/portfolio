@@ -11452,5 +11452,34 @@ margin-bottom:30px;
   width:80%;
   margin:8px auto;
 }
+  /* FORCE HERO MOBILE LAYOUT */
+@media (max-width:768px){
+
+#home-section .slider-text.row{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+}
+
+#home-section .hero-img{
+  order:-1 !important;
+  width:220px !important;
+  height:220px !important;
+  margin:20px auto !important;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+#home-section .one-forth{
+  width:100% !important;
+}
+
+#home-section [data-scrollax]{
+  transform:none !important;
+}
+
+}
 
 }
