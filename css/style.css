@@ -11599,13 +11599,30 @@ body .hero .btn{
 }
 
 }
-  /* Move hero image above on mobile */
-@media (max-width:768px){
+ /* ===== FORCE HERO IMAGE ON TOP (MOBILE ONLY) ===== */
+@media screen and (max-width:768px){
 
-.one-third.hero-img{
-  order:-1;
-  margin-bottom:25px;
-  margin-top:0;
+.hero .slider-text{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  text-align:center !important;
+}
+
+/* move image first */
+.hero .hero-img{
+  order:-1 !important;
+  margin-bottom:30px !important;
+  margin-top:0 !important;
+  width:220px !important;
+  height:220px !important;
+  background-size:cover !important;
+  background-position:center !important;
+}
+
+/* prevent spacing pushing image down */
+.hero .one-forth{
+  transform:none !important;
 }
 
 }
