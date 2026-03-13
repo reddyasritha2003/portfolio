@@ -11483,3 +11483,25 @@ margin-bottom:30px;
 }
 
 }
+  /* FINAL MOBILE HERO FIX */
+@media (max-width:768px){
+
+[data-scrollax]{
+  transform:none !important;
+}
+
+.slider-text{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:center !important;
+  text-align:center !important;
+}
+
+.hero-img{
+  width:220px !important;
+  height:220px !important;
+  margin:20px auto !important;
+}
+
+}
