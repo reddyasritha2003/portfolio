@@ -11505,6 +11505,6 @@ margin-bottom:30px;
 }
 
 }
-  .hero-img {
-  margin-top: 80px;
+.hero-img {
+  transform: translateY(60px);
 }
